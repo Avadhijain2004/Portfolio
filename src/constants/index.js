@@ -39,12 +39,12 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "Javascript"],
-    code: "https://github.com/Avadhijain2004/medicine_recommender_system",
+    code: "https://github.com/Avadhijain2004/Portfolio",
   },
 ];
 
 export const CONTACT = {
   address: "Indore, Madhya Pradesh",
-  phoneNo: "7000619650",
+  phoneNo: "+91 70006-19650",
   email: "avadhijain2004@gmail.com",
 };

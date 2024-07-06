@@ -4,7 +4,6 @@ import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 
 
-
 function Navbar() {
 
     function handleIconClick(iconName) {
@@ -21,9 +20,9 @@ function Navbar() {
             <div className='flex flex-shrink-0 items-center w-20 h-10 ml-4 lg:ml-20'>
                 <img src={logo} alt="logo" />
             </div>
-            <div className='m-8 flex items-center justify-center gap-4 text-2xl mr-4 lg:mr-20'>
-                <FaLinkedin onClick={() => handleIconClick('LinkedIn')}/>
-                <FaGithub onClick={() => handleIconClick('GitHub')} />
+            <div className='m-8 flex items-center justify-center gap-4 text-2xl mr-4 lg:mr-20 '>
+                <FaLinkedin onClick={() => handleIconClick('LinkedIn')} className='hover:text-purple-400'/>
+                <FaGithub onClick={() => handleIconClick('GitHub')} className='hover:text-purple-400'/>
             </div>
         </nav>
     )
