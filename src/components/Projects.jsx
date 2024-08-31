@@ -20,7 +20,7 @@ function Projects() {
                         whileInView={{x:0,opacity:1}}
                         transition={{duration:1}}
                         className='w-full lg:w-1/4'>
-                        <img width={200} height={200} src={project.image} className='mb-6 rounded'/>
+                        <img width={200} height={200} src={project.image} className='mb-6 rounded mt-4'/>
                         </motion.div>
                         <motion.div 
                         initial={{x:100,opacity:0}}
@@ -32,7 +32,7 @@ function Projects() {
                         </h6>
                         <p className='mb-4 text-neutral-400 '>{project.description}</p>
                         {project.technologies.map((tech,index)=>(
-                            <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm text-pink-300 font-light'>{tech}</span>
+                            <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-0.5 text-sm text-pink-300 font-light'>{tech}</span>
                         ))}
                         </motion.div>
                     </div>

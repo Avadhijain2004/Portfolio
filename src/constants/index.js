@@ -1,6 +1,8 @@
 import project1 from '../assets/projects/project-1.png'
 import project2 from '../assets/projects/project-2.png'
 import project3 from '../assets/projects/project-3.png'
+import project4 from '../assets/projects/project-4.png'
+import project5 from '../assets/projects/project-5.png'
 
 export const HERO_CONTENT = `Dedicated and Passionate Computer Science student and a Front-end Developer with a strong foundation in software development and web technologies. Skilled
  in C, C++, Python, HTML, CSS, JavaScript, and ReactJS. Seeking opportunities to leverage my skills and knowledge in a dynamic
@@ -17,6 +19,22 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Medicare (An Online Doctors Clinic)",
+    image: project5,
+    description:
+      "Developed the frontend of an online doctor's clinic using ReactJS, with integrated payment gateway, as part of a MERN stack project. ",
+    technologies: ["React Js","Node Js","Mongo DB", "Express Js", "Tailwind CSS", "Javascript", "Stripe"],
+    code: "https://github.com/Naman-Mishra-3116/industrialTraining",
+  },
+  {
+    title: "Tweet Craft (A Dynamic Tweet App)",
+    image: project4,
+    description:
+      "A dynamic tweet app where you can create, update or delete your tweets and can read tweets of others also.",
+    technologies: ["HTML", "Bootstrap CSS", "Django", "Javascript"],
+    code: "https://github.com/Avadhijain2004/Tweet-app-Django",
+  },
   {
     title: "KnowMeds (A Medicine Recommendation System)",
     image: project1,
@@ -38,7 +56,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "Javascript"],
+    technologies: ["React JS","HTML", "CSS", "Javascript"],
     code: "https://github.com/Avadhijain2004/Portfolio",
   },
 ];
