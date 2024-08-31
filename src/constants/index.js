@@ -24,7 +24,7 @@ export const PROJECTS = [
     image: project5,
     description:
       "Developed the frontend of an online doctor's clinic using ReactJS, with integrated payment gateway, as part of a MERN stack project. ",
-    technologies: ["React Js","Node Js","Mongo DB", "Express Js", "Tailwind CSS", "Javascript", "Stripe"],
+    technologies: ["MERN Stack", "Tailwind CSS", "Javascript", "Stripe"],
     code: "https://github.com/Naman-Mishra-3116/industrialTraining",
   },
   {
