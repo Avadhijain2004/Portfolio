@@ -39,14 +39,14 @@ function Technologies() {
                 initial="initial"
                 animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <RiReactjsFill className='text-7xl text-cyan-400' />
+                    <RiReactjsFill className='text-7xl text-cyan-400' title='React JS' />
                 </motion.div>
                 <motion.div 
                 variants={iconVariants(3)}
                 initial="initial"
                 animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <RiHtml5Fill className='text-7xl text-white bg-orange-600' />
+                    <RiHtml5Fill className='text-7xl text-white bg-orange-600' title='HTML5' />
                 </motion.div>
                 
                 <motion.div 
@@ -54,7 +54,7 @@ function Technologies() {
                 initial="initial"
                 animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <RiTailwindCssFill className='text-7xl text-cyan-600' />
+                    <RiTailwindCssFill className='text-7xl text-cyan-600' title='Tailwind CSS' />
                 </motion.div>
 
                 <motion.div 
@@ -62,7 +62,7 @@ function Technologies() {
                 initial="initial"
                 animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <RiJavascriptLine className='text-7xl text-yellow-400' />
+                    <RiJavascriptLine className='text-7xl text-yellow-400' title='JavaScript' />
                 </motion.div>
                 
                 <motion.div 
@@ -71,7 +71,7 @@ function Technologies() {
                 animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <div className="relative">
-                        <SiPython className="text-blue-500 text-7xl" />
+                        <SiPython className="text-blue-500 text-7xl" title='Python' />
                         <SiPython className="absolute top-0 text-yellow-500 text-7xl" style={{ clipPath: 'polygon(0 50%, 100% 50%, 100% 100%, 0% 100%)' }} />
                     </div>
                 </motion.div>
@@ -81,7 +81,7 @@ function Technologies() {
                 initial="initial"
                 animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <FaGithub className='text-7xl text-white' />
+                    <FaGithub className='text-7xl text-white'  title='Github'/>
                 </motion.div>
             </motion.div>
         </div>
