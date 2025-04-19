@@ -3,12 +3,18 @@ import project2 from '../assets/projects/project-2.png'
 import project3 from '../assets/projects/project-3.png'
 import project4 from '../assets/projects/project-4.png'
 import project5 from '../assets/projects/project-5.png'
+import project6 from '../assets/projects/project-6.png'
 
-export const HERO_CONTENT = `Dedicated and Passionate Computer Science student and a Front-end Developer with a strong foundation in software development and web technologies. Skilled
- in C, C++, Python, HTML, CSS, JavaScript, and ReactJS. Seeking opportunities to leverage my skills and knowledge in a dynamic
- team environment`;
+export const HERO_CONTENT = ` Final-year Computer Science with Business Systems student and TCS Digital intern with a strong foundation in Python, ReactJS, and Generative AI. Experienced in building full-stack web apps, AI chatbots, and automation tools with a focus on user experience and business impact. Passionate about leveraging AI and modern tech to drive innovative, scalable solutions.`;
 
 export const EXPERIENCES = [
+  {
+    duration: "20/01/2025 - 30/04/2025",
+    role: "AI Cloud Intern",
+    company: "Tata Consultancy Services",
+    description: `Completed web-based training in Agile, DevOps, Design Thinking, Digital AI, and AWS Cloud, with hands-on experience in modern development practices. Built a PDF parser using Python and an AI-powered chatbot using HuggingFace LLMs, LangChain, and RAG. Gained proficiency in Prompt Engineering, OpenAI APIs, and tools like Postman.`,
+    technologies: ["Langchain", "Generative AI","HuggingFace LLMs"],
+  },
   {
     duration: "01/01/2024 - 01/02/2024",
     role: "Python Developer",
@@ -20,15 +26,23 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "AI powered Student Assistant",
+    image: project6,
+    description:
+      "Class 12th Physics and Chemistry Student Assistant is a chatbot built using Botpress to help Class 12 students understand Physics and Chemistry concepts. Users can ask questions and get instant assistance through a simple chat interface.",
+    technologies: ["Artificial Intelligence", "NLP", "RAG"],
+    code: "https://cdn.botpress.cloud/webchat/v2.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/02/12/01/20250212015801-VTMBJSB3.json",
+  },
+  {
     title: "Medicare (An Online Doctors Clinic)",
     image: project5,
     description:
       "Developed the frontend of an online doctor's clinic using ReactJS, with integrated payment gateway, as part of a MERN stack project. ",
     technologies: ["MERN Stack", "Tailwind CSS", "Javascript", "Stripe"],
-    code: "https://github.com/Naman-Mishra-3116/industrialTraining",
+    code: "https://medicaredoctorsclinic.vercel.app/",
   },
   {
-    title: "Tweet Craft (A Dynamic Tweet App)",
+    title: "Tweet Craft",
     image: project4,
     description:
       "A dynamic tweet app where you can create, update or delete your tweets and can read tweets of others also.",
@@ -36,7 +50,7 @@ export const PROJECTS = [
     code: "https://github.com/Avadhijain2004/Tweet-app-Django",
   },
   {
-    title: "KnowMeds (A Medicine Recommendation System)",
+    title: "KnowMeds",
     image: project1,
     description:
       "A system to provide users with medicine descriptions and alternate recommendations.",
@@ -51,14 +65,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript"],
     code: "https://github.com/Avadhijain2004/Dictionary-app",
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React JS","HTML", "CSS", "Javascript"],
-    code: "https://github.com/Avadhijain2004/Portfolio",
-  },
+  
 ];
 
 export const CONTACT = {

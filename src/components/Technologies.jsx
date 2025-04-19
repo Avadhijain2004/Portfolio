@@ -6,6 +6,10 @@ import { RiTailwindCssFill } from 'react-icons/ri'
 import { RiJavascriptLine } from 'react-icons/ri'
 import { SiPython } from 'react-icons/si'
 import { motion } from "framer-motion"
+import { SiLangchain } from "react-icons/si";
+
+import { FaAws } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 
 const iconVariants =(duration) =>({
     initial:{y:-10},
@@ -46,7 +50,7 @@ function Technologies() {
                 initial="initial"
                 animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <RiHtml5Fill className='text-7xl text-white bg-orange-600' title='HTML5' />
+                    <RiNextjsFill className='text-7xl text-white bg-black' title='HTML5' />
                 </motion.div>
                 
                 <motion.div 
@@ -83,6 +87,21 @@ function Technologies() {
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <FaGithub className='text-7xl text-white'  title='Github'/>
                 </motion.div>
+                <motion.div 
+                variants={iconVariants(4)}
+                initial="initial"
+                animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiLangchain className='text-7xl text-white'  title='LangChain'/>
+                </motion.div>
+                <motion.div 
+                variants={iconVariants(4)}
+                initial="initial"
+                animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <FaAws className='text-7xl text-white'  title='AWS'/>
+                </motion.div>
+                
             </motion.div>
         </div>
     )
