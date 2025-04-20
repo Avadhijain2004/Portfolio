@@ -25,6 +25,16 @@ function Contact() {
 
                 <a href="//avadhijain2004@gmail.com" className='border-b' target='_blank'>{CONTACT.email}</a>
             </div>
+            <div>
+                <p className='text-center m-4 mt-6'>Do you want your website like this? </p>
+                
+                <div className='flex items-center justify-center'>
+                <a href="https://forms.gle/JK6hYxnkvPARJ9r29" target='_blank'>
+                
+                <button className='bg-purple-950 px-6 py-2 border border-gray-900 hover:bg-purple-800 rounded-xl m-5 hover:font-semibold shadow-md shadow-purple-500'>Fill this Form</button>
+                </a>
+                </div>
+            </div>
         </div>
     )
 }
